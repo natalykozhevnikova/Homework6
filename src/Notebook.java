@@ -129,7 +129,7 @@ import java.util.*;
         public static Map<String, String> enterFilter() {
             Map<String, String> filterMap = new HashMap<>();
             String key = "";
-            while (!key.equals("q")) {
+            while (!key.equals("6")) {
                 System.out.printf("Выберите нужную цифру:\n" +
                         "1 - Наименование\n" +
                         "2 - Объем памяти\n" +
@@ -140,7 +140,7 @@ import java.util.*;
                         "-> ");
                 Scanner scn = new Scanner(System.in);
                 key = scn.nextLine();
-                if (!key.equals("q")) {
+                if (!key.equals("6")) {
                     System.out.printf("Введите значение критерия:\n" +
                             "-> ");
                     String value = scn.nextLine();
